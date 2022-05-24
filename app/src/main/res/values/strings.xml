@@ -6,4 +6,11 @@
     <string name="password">Password</string>
     <string name="re_enter_password">Re-Enter password</string>
     <string name="license">This is our license agreement: You can share this app anywhere that you want and use it however you want. Just remember to enjoy</string>
+    <string-array name="country">
+        <item>Russia</item>
+        <item>Ukraine</item>
+        <item>China</item>
+        <item>USA</item>
+        <item>Germany</item>
+    </string-array>
 </resources>
