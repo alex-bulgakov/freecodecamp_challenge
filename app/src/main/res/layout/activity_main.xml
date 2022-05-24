@@ -59,7 +59,7 @@
 
         <RelativeLayout
             android:id="@+id/txtFields"
-            android:layout_width="200dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content">
 
             <EditText
@@ -89,6 +89,28 @@
                 android:layout_below="@id/txtPassword"
                 android:hint="@string/re_enter_password" />
 
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/licenseMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/txtFields">
+
+            <TextView
+                android:id="@+id/txtLicense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/license" />
+
+            <CheckBox
+                android:id="@+id/licenseAgree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtLicense"
+                android:text="I Agree"/>
 
         </RelativeLayout>
 

@@ -1,8 +1,9 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">freecodecamp_challenge</string>
     <string name="pick_image">Pick image</string>
     <string name="name">Name</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="re_enter_password">Re-Enter password</string>
+    <string name="license">This is our license agreement: You can share this app anywhere that you want and use it however you want. Just remember to enjoy</string>
 </resources>
